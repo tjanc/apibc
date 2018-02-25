@@ -1,4 +1,4 @@
-// parser/apib/grammar/document.hpp
+// backend/canonical.hpp
 //
 // (c) 2018 Thomas Jandecka
 //
@@ -14,7 +14,7 @@ namespace apibc
 {
     namespace backend
     {
-        std::ostream& serialize(std::ostream& out, const core::apib::document& doc);
+        std::ostream& serialize_canonical(std::ostream& out, const core::apib::document& doc);
     }
 }
 

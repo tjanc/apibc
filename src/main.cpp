@@ -36,7 +36,7 @@ int main(int argc, char* argv[])
         return 1;
     }
 
-    backend::serialize(std::cout, result);  // TODO check result
+    backend::serialize_canonical(std::cout, result);
 
     return 0;
 }

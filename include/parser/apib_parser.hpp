@@ -3,8 +3,8 @@
 // (c) 2018 Thomas Jandecka
 //
 
-#ifndef APIB_PARSER_APIB_PARSER_H
-#define APIB_PARSER_APIB_PARSER_H
+#ifndef APIBC_PARSER_APIB_PARSER_H
+#define APIBC_PARSER_APIB_PARSER_H
 
 #include <core/apib/apib.hpp>
 
