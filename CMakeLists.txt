@@ -14,5 +14,12 @@ set(Boost_USE_STATIC_RUNTIME OFF)
 find_package(Boost REQUIRED COMPONENTS) 
 
 include_directories(include ${Boost_INCLUDE_DIRS}) 
-add_executable(apibc src/main.cpp src/backend/canonical.cpp) 
+add_executable(apibc
+    src/main.cpp
+    src/backend/canonical.cpp
+    src/backend/json.cpp
+    src/backend/json_schema.cpp
+    src/backend/xml.cpp
+    src/backend/yaml.cpp
+    ) 
 target_link_libraries(apibc ${Boost_LIBRARIES})

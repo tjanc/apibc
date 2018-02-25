@@ -30,7 +30,7 @@ namespace
     }
 }
 
-std::ostream& apibc::backend::serialize(std::ostream& out, const document& doc)
+std::ostream& apibc::backend::serialize_canonical(std::ostream& out, const document& doc)
 {
     if (doc.metadata) serialize_section(out, *doc.metadata);
 
